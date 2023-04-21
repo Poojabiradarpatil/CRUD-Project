@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav>a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 3px red;
+
+}
+
+#myform{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgb(101, 100, 100),rgb(81, 240, 229));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myform>table{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;   
+    box-shadow: 0px 0px 5px white;
+    
+}
+#myform>table label{
+    /* color: white; */
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-weight: bolder;
+
+}
+#myform>table input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    /* color: white; */
+    font-weight: bold;
+
+    
+}
+#myform>table input:focus{
+    outline: none;
+}
+button{
+    height: 30px;
+    width: 30%;
+    background-color: rgb(238, 187, 187);
+    border-radius: 10px;
+    border: none;
+    font-style: italic;
+    font-weight: bold;
+}
+#myform>table>th{
+   font-size: larger;
+   text-shadow: 0px 0px 5px white;
+}
+button:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#myusers{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgb(101, 100, 100),rgb(81, 240, 229));  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#cards{
+    height: 250px;
+    width: 250px;
+    border: 1px solid white; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;   
+}
+#cards:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+#cards>table{
+    padding: 15px;
+}
+#cards td{
+    color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cards td>button{
+    height: 20px;
+    width: 80px;
+    background-color: white;
+    display: inline-block;
+}
+#cards td>button>a{
+    text-decoration: none;
+    color: black;
+}
+
+

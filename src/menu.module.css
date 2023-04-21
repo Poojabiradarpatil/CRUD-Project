@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#exploreblock{
+    height: 80vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    border: 1px solid black; 
+}
+#exploreblock>article{
+    height: 80vh;
+    width: 100%;
+    background-color: azure;
+}
+#exploreblock>article>summary{
+    height: 80vh;
+    width: 50%;
+    background-color: aqua;
+}
+#exploreblock>article>image{
+    height: 80vh;
+    width: 50%;
+    background-color:aquamarine;
+}
+
